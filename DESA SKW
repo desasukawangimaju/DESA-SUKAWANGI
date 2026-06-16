@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Resmi Desa Sukawangi | Tarogong Kaler, Garut</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://jsdelivr.net"></script>
+    <!-- Font Awesome untuk Ikon -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans scroll-smooth">
+
+    <!-- 1. NAVIGATION BAR -->
+    <header class="bg-emerald-800 text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-white p-2 rounded-full w-10 h-10 flex items-center justify-center shadow-inner">
+                    <i class="fa-solid fa-mountain-sun text-emerald-700 text-xl"></i>
+                </div>
+                <div>
+                    <h1 class="text-lg font-bold tracking-wider leading-tight">DESA SUKAWANGI</h1>
+                    <p class="text-xs text-emerald-200">Kec. Tarogong Kaler, Kab. Garut</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#beranda" class="hover:text-emerald-300 transition">Beranda</a>
+                <a href="#profil" class="hover:text-emerald-300 transition">Profil</a>
+                <a href="#pemerintahan" class="hover:text-emerald-300 transition">Pemerintahan</a>
+                <a href="#potensi" class="hover:text-emerald-300 transition">Potensi Desa</a>
+                <a href="#layanan" class="hover:text-emerald-300 transition">Layanan</a>
+                <a href="#kontak" class="bg-amber-500 hover:bg-amber-400 text-emerald-950 px-4 py-1.5 rounded-full font-semibold transition shadow">Hubungi Kami</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. HERO SECTION -->
+    <section id="beranda" class="relative bg-gradient-to-br from-emerald-700 via-emerald-600 to-teal-600 text-white py-24 lg:py-32 overflow-hidden">
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="container mx-auto px-6 relative z-10 text-center max-w-4xl">
+            <span class="bg-emerald-500/30 text-emerald-200 text-xs font-semibold px-4 py-1.5 rounded-full uppercase tracking-widest mb-4 inline-block">Situs Informasi Resmi</span>
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 leading-tight">Maju Bersama Masyarakat Desa Sukawangi</h2>
+            <p class="text-lg md:text-xl text-emerald-100 mb-10 font-light max-w-2xl mx-auto">Pusat transparansi pemerintahan publik, pelayanan digital warga, dan pengembangan potensi agrikultur di kawasan lereng Gunung Guntur.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#layanan" class="bg-amber-500 hover:bg-amber-400 text-emerald-950 font-bold px-8 py-3.5 rounded-lg shadow-md hover:shadow-xl transition-all duration-200 text-center">Ajukan Pelayanan Mandiri</a>
+                <a href="#profil" class="border border-white/40 hover:bg-white/10 text-white font-medium px-8 py-3.5 rounded-lg transition text-center">Pelajari Profil Desa</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. STATISTIK DESA -->
+    <section class="container mx-auto px-6 -mt-10 relative z-20">
+        <div class="bg-white rounded-2xl shadow-xl border border-slate-100 p-6 md:p-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="p-2 border-r border-slate-100 last:border-0">
+                <div class="text-3xl font-black text-emerald-600 mb-1">4.316</div>
+                <div class="text-xs font-medium text-slate-500 uppercase tracking-wider">Total Penduduk</div>
+            </div>
+            <div class="p-2 md:border-r border-slate-100 last:border-0">
+                <div class="text-3xl font-black text-emerald-600 mb-1">246 <span class="text-base font-normal">Ha</span></div>
+                <div class="text-xs font-medium text-slate-500 uppercase tracking-wider">Luas Wilayah</div>
+            </div>
+            <div class="p-2 border-r border-slate-100 last:border-0">
+                <div class="text-3xl font-black text-emerald-600 mb-1">3</div>
+                <div class="text-xs font-medium text-slate-500 uppercase tracking-wider">Dusun / RW</div>
+            </div>
+            <div class="p-2 last:border-0">
+                <div class="text-3xl font-black text-emerald-600 mb-1">12</div>
+                <div class="text-xs font-medium text-slate-500 uppercase tracking-wider">Rukun Tetangga (RT)</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PROFIL & GEOGRAFIS -->
+    <section id="profil" class="container mx-auto px-6 py-20">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-emerald-600 font-bold text-sm tracking-widest uppercase block mb-2">Tentang Kami</span>
+                <h3 class="text-3xl font-extrabold text-slate-900 mb-6">Selayang Pandang Desa Sukawangi</h3>
+                <p class="text-slate-600 leading-relaxed mb-4">Desa Sukawangi secara administratif terletak di Kecamatan Tarogong Kaler, Kabupaten Garut. Wilayah desa ini diberkahi dengan tanah yang sangat subur karena berada dekat dengan kawasan vulkanis **Gunung Guntur**.</p>
+                <p class="text-slate-600 leading-relaxed mb-6">Mayoritas warga menggantungkan hidupnya pada sektor agrikultur, terutama perkebunan sayur-mayur skala regional yang disuplai langsung oleh aliran air sub-DAS Cimanuk.</p>
+                <div class="border-l-4 border-emerald-600 pl-4 italic text-slate-700 bg-emerald-50/50 py-3 rounded-r-lg">
+                    "Terwujudnya pelayanan desa yang prima, transparan, serta penguatan kemandirian ekonomi petani lokal berbasis teknologi." - Visi Desa
+                </div>
+            </div>
+            <div class="bg-gradient-to-br from-emerald-800 to-slate-900 p-8 rounded-2xl text-white shadow-xl relative">
+                <h4 class="text-xl font-bold mb-4"><i class="fa-solid fa-map-location-dot mr-2 text-amber-400"></i> Batas Wilayah Administrasi</h4>
+                <ul class="space-y-3 text-emerald-100">
+                    <li class="flex items-center"><strong class="w-24 text-white">Utara:</strong> Kawasan Hutan Gunung Guntur</li>
+                    <li class="flex items-center"><strong class="w-24 text-white">Selatan:</strong> Desa Sukajadi</li>
+                    <li class="flex items-center"><strong class="w-24 text-white">Timur:</strong> Kelurahan Pananjung</li>
+                    <li class="flex items-center"><strong class="w-24 text-white">Barat:</strong> Desa Panjiwangi</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. STRUKTUR PEMERINTAHAN -->
+    <section id="pemerintahan" class="bg-slate-100 py-20">
+        <div class="container mx-auto px-6 text-center max-w-3xl mb-12">
+            <span class="text-emerald-600 font-bold text-sm tracking-widest uppercase block mb-2">Aparatur Desa</span>
+            <h3 class="text-3xl font-extrabold text-slate-900">Struktur Organisasi Pemerintahan Desa</h3>
+            <p class="text-slate-500 mt-2">Sinergi perangkat desa untuk memberikan pelayanan publik terbaik dan akuntabel kepada warga Sukawangi.</p>
+        </div>
+        <div class="container mx-auto px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Kepala Desa -->
+            <div class="bg-white rounded-xl shadow-sm p-6 text-center border border-slate-200">
+                <div class="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-400"><i class="fa-solid fa-user text-3xl"></i></div>
+                <h4 class="font-bold text-slate-900">Kepala Desa</h4>
+                <p class="text-xs text-emerald-600 font-medium mt-1">Pimpinan Utama Pemdes</p>
+            </div>
+            <!-- Sekretaris Desa -->
+            <div class="bg-white rounded-xl shadow-sm p-6 text-center border border-slate-200">
+                <div class="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-400"><i class="fa-solid fa-user text-3xl"></i></div>
+                <h4 class="font-bold text-slate-900">Sekretaris Desa</h4>
+                <p class="text-xs text-emerald-600 font-medium mt-1">Urusan Administrasi & Umum</p>
+            </div>
+            <!-- Kaur Keuangan -->
+            <div class="bg-white rounded-xl shadow-sm p-6 text-center border border-slate-200">
+                <div class="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-400"><i class="fa-solid fa-user text-3xl"></i></div>
+                <h4 class="font-bold text-slate-900">Kaur Keuangan</h4>
+                <p class="text-xs text-emerald-600 font-medium mt-1">Pengelolaan Anggaran APBDes</p>
+            </div>
+            <!-- Kasi Pelayanan -->
+            <div class="bg-white rounded-xl shadow-sm p-6 text-center border border-slate-200">
+                <div class="w-20 h-20 bg-slate-200 rounded-full mx-auto mb-4 flex items-center justify-center text-slate-400"><i class="fa-solid fa-user text-3xl"></i></div>
+                <h4 class="font-bold text-slate-900">Kasi Pelayanan</h4>
+                <p class="text-xs text-emerald-600 font-medium mt-1">Kesejahteraan & Layanan Warga</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. POTENSI UNGGULAN -->
+    <section id="potensi" class="container mx-auto px-6 py-20">
+        <div class="text-center max-w-3xl mb-16 mx-auto">
+            <span class="text-emerald-600 font-bold text-sm tracking-widest uppercase block mb-2">Sektor Ekonomi</span>
